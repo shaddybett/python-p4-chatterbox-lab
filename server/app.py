@@ -47,6 +47,6 @@ def delete_message(id):
     db.session.commit()
     return jsonify({"message": "Message deleted successfully"})
 
-if __name__ == '__main__':
-    app.run(debug=False,port=4000)
+# if __name__ == '__main__':
+#     app.run(debug=False,port=4000)
 
